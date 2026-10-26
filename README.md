@@ -8,6 +8,7 @@ that are published for amd64 only, needed on the homelab's arm64 machines.
 | `config-policy-controller` | open-cluster-management-io/config-policy-controller | v0.18.0, v0.19.0 |
 | `governance-policy-framework-addon` | open-cluster-management-io/governance-policy-framework-addon | v0.18.0, v0.19.0 |
 | `argocd-operator` | argoproj-labs/argocd-operator | v0.18.0 |
+| `argocd-pull-integration` | open-cluster-management-io/argocd-pull-integration, built with this repository's argocd-operator | v0.30.0 |
 
 Each `images/<image>/Dockerfile` clones the upstream tag given as
 `VERSION` and builds the same binary and entrypoint as the upstream

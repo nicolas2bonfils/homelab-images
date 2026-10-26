@@ -21,6 +21,7 @@ jobs:
           - {image: governance-policy-framework-addon, version: v0.18.0}
           - {image: governance-policy-framework-addon, version: v0.19.0}
           - {image: argocd-operator, version: v0.18.0}
+          - {image: argocd-pull-integration, version: v0.30.0}
     steps:
       - uses: actions/checkout@v5
       - uses: docker/setup-buildx-action@v3
